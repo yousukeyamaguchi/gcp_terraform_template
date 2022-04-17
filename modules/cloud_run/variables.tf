@@ -1,0 +1,11 @@
+variable "project" {}
+variable "location" {}
+variable "service_name" {}
+variable "max_scale" {}
+variable "timeout_seconds" {}
+variable "image" {}
+variable "cpu" {}
+variable "memory" {}
+variable "service_account_name" {}
+variable "percent" {}
+variable "latest_revision" {}
