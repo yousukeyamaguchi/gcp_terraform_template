@@ -1,0 +1,10 @@
+variable "scheduler_name" {}
+variable "schedule" {}
+variable "time_zone" {}
+variable "attempt_deadline" {}
+variable "retry_count" {}
+variable "max_doublings" {}
+variable "http_method" {}
+variable "uri" {}
+variable "audience" {}
+variable "service_account_email" {}
