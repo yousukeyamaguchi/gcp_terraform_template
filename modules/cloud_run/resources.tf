@@ -19,6 +19,10 @@ resource "google_cloud_run_service" "default" {
             "memory" = var.memory
           }
         }
+        env {
+          name  = "TZ"
+          value = "Asia/tokyo"
+        }
       }
       service_account_name = var.service_account_name
     }
